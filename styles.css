@@ -83,11 +83,14 @@ body {
 
 #main{
 	background-color: rgba(0,0,0,0.3);
-	height: 100vh;
+	_height: 150vh;
+	min-height:150vh;
 	margin-right: 5vh;
 	margin-left: 15vh;
 	margin-top: 5vh;
 	padding-top: 2vh;
+	padding-bottom: 7vh;
+	margin-bottom: 5vh;
 	display: none;
 	color: #FFF;
 }
@@ -95,7 +98,11 @@ body {
 #main .resumeContent{
 	color: #FFF;
 	display: none;
+	padding-left: 10vh;
+	padding-right: 10vh;
+
 }
+
 
 #main h1{
 	text-align: center;
@@ -103,5 +110,44 @@ body {
 	margin-top: 0;
 }
 
+#main dt{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 4px;
+	margin-top: 6px;
+	padding-left: 2vh;
+}
+
+#main dd{
+	font-weight: bold;
+}
+
+#main .Educations p{
+	margin-top: 0px;
+	padding-left: 6.5vh;
+	padding-right: 6.5vh;
+}
+
+#main .Experiences p{
+	margin-top: 0px;
+	padding-left: 6.5vh;
+	padding-right: 6.5vh;
+}
+
+#main .images{
+	text-align: center;
+	display: none;
+
+}
+
+#main .Qualifications p{
+	padding-left: 6.5vh;
+	padding-right: 6.5vh 
+}
+img {
+	display: inline-block;
+	width: 40vh;
+	//display: none;
+}
 
 
