@@ -135,19 +135,82 @@ body {
 }
 
 #main .images{
-	text-align: center;
-	display: none;
-
+	display: inline-block;
+}
+#main .contactContent img{
+	height: 238px;
 }
 
 #main .Qualifications p{
 	padding-left: 6.5vh;
-	padding-right: 6.5vh 
+	padding-right: 6.5vh;
 }
-img {
+
+#main .Blocks{
+	padding-left: 20vh;
+	padding-right: 20vh;
+}
+
+#main .information{
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 238px;
+	margin-left: 30vh;
+	margin-top: 10vh;
+	padding-top: 2vh;
+	padding-left: 2vh;
+	padding-right: 2vh;
+	padding-bottom: 2vh;
+}
+
+#main .qrCodes{
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 238px;
+	margin-right: 30vh;
+	margin-top: 15vh;
+	padding-top: 2vh;
+	padding-left: 2vh;
+	padding-right: 2vh;
+	padding-bottom: 2vh;
+}
+
+
+#main .wechat{
+	float: right;
+}
+#main .Inf{
 	display: inline-block;
-	width: 40vh;
-	//display: none;
 }
+#main .basic {
+	position: absolute;
+	top: 32%;
+	left: 40%;
+}
+
+#main .Qr{
+	display: inline-block;
+}
+
+#main .others {
+	position: absolute;
+	top: 86%;
+	left: 44%;
+}
+
+#main .others h2{
+	padding-left: 5vh;
+	margin-bottom: 2vh;
+	padding-bottom: 0vh;
+	padding-top: 0vh;
+	margin-top: 0vh;
+}
+#main .basic h2{
+	padding-left: 5vh;
+	margin-bottom: 2vh;
+	padding-bottom: 0vh;
+	padding-top: 0vh;
+	margin-top: 0vh;
+}
+
+
 
 
