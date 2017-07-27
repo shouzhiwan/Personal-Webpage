@@ -154,7 +154,7 @@ body {
 #main .information{
 	background-color: rgba(0, 0, 0, 0.4);
 	height: 238px;
-	margin-left: 30vh;
+	margin-left: 20vh;
 	margin-top: 10vh;
 	padding-top: 2vh;
 	padding-left: 2vh;
@@ -165,7 +165,7 @@ body {
 #main .qrCodes{
 	background-color: rgba(0, 0, 0, 0.4);
 	height: 238px;
-	margin-right: 30vh;
+	margin-right: 20vh;
 	margin-top: 15vh;
 	padding-top: 2vh;
 	padding-left: 2vh;
